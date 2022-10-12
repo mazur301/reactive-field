@@ -1,6 +1,6 @@
 <?php
 
-namespace Mazur301\NovaCompactUi\Http\Controllers;
+namespace Mazur301\NovaReactiveField\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Fields\FieldCollection;

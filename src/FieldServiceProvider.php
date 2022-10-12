@@ -30,7 +30,7 @@ class FieldServiceProvider extends ServiceProvider
     public function register()
     {
         Route::middleware(['nova'])
-            ->namespace('Mazur301\NovaCompactUi\Http\Controllers')
+            ->namespace('Mazur301\NovaReactiveField\Http\Controllers')
             ->prefix('fifteen-group/nova-compact-reactive-ui')
             ->group(__DIR__.'/../routes/api.php');
     }
