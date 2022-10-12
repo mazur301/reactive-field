@@ -29,5 +29,9 @@ class FieldServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        Route::middleware(['nova'])
+            ->namespace('FifteenGroup\NovaReactiveField\Http\Controllers')
+            ->prefix('fifteen-group/nova-compact-reactive-ui')
+            ->group(__DIR__.'/../routes/api.php');
     }
 }
