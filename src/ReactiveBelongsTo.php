@@ -2,7 +2,7 @@
 
 namespace Mazur301\NovaReactiveField;
 
-use FifteenGroup\NovaReactiveField\Traits\ReactiveField;
+use Mazur301\NovaReactiveField\Traits\ReactiveField;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Fields\BelongsTo;

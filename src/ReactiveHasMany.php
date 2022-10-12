@@ -2,7 +2,7 @@
 
 namespace Mazur301\NovaReactiveField;
 
-use FifteenGroup\NovaReactiveField\Traits\ReactiveField;
+use Mazur301\NovaReactiveField\Traits\ReactiveField;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Laravel\Nova\Contracts\RelatableField;

@@ -2,7 +2,7 @@
 
 namespace Mazur301\NovaReactiveField;
 
-use FifteenGroup\NovaReactiveField\Traits\ReactiveField;
+use Mazur301\NovaReactiveField\Traits\ReactiveField;
 use Laravel\Nova\Fields\KeyValue;
 
 class ReactiveKeyValue extends KeyValue
