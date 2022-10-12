@@ -8,7 +8,7 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 
 class ReactiveFieldController extends Controller
 {
-    public function __invoke(NovaRequest $request, string $resource, string $field)
+    public function calculate(NovaRequest $request, string $resource, string $field)
     {
         $novaResource = $request->get('resourceId')
             ? $request->newResourceWith($request->findModelOrFail())
