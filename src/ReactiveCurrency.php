@@ -1,6 +1,6 @@
 <?php
 
-namespace FifteenGroup\NovaReactiveField;
+namespace Mazur301\NovaReactiveField;
 
 use FifteenGroup\NovaReactiveField\Traits\ReactiveField;
 use Illuminate\Support\Collection;

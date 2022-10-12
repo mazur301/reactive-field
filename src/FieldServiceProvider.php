@@ -1,6 +1,6 @@
 <?php
 
-namespace FifteenGroup\NovaReactiveField;
+namespace Mazur301\NovaReactiveField;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

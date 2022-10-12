@@ -1,6 +1,6 @@
 <?php
 
-namespace FifteenGroup\NovaReactiveField\Traits;
+namespace Mazur301\NovaReactiveField\Traits;
 
 use Closure;
 
