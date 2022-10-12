@@ -89,7 +89,10 @@ trait ReactiveField
      */
     public function dontFill()
     {
-        $this->fillUsing(fn() => null);
+        $this->fillUsing(function () {
+            return null;
+        });
+
         return $this;
     }
 
